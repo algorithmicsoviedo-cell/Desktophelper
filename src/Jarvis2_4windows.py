@@ -119,15 +119,15 @@ def run():
 
             except sr.UnknownValueError:
                 if debug == "True":
-                    print("Sorry Could You please try again")
+                    print("******")
                 else:
                     pass
-                speak("Sorry Could You please try again")
+                speak("********")
 
             except Exception as e:
                 if debug == "True":
                     print(e)
-                    print("Say That Again Please")
+                    print("aaaaaa")
                 else:
                     pass
 
