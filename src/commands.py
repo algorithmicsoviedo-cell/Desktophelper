@@ -2,10 +2,9 @@ import configparser
 import random
 import smtplib
 import sys
-
 import wikipedia
-from pygame import mixer
 
+from pygame import mixer
 from actions import open_url, search, speak
 
 config = configparser.ConfigParser()  # if exists loads library.
